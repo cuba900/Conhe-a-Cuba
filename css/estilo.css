@@ -1,0 +1,252 @@
+/* --- reproductor flutuante */
+#repro {
+    background: transparent;
+    font-family: "times new roman",arial;
+    color:rgb(255, 115, 0);
+    text-decoration: none;
+    padding: 1px;
+    border-radius: 9px;
+    position: fixed;
+    left: 1em;
+    top: 1em;
+    width: 20%;
+    height: 7%;
+    
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.navigation {
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+}
+.navigation li{
+    display: inline-flex;
+    margin: 30px;
+    right: 1em;
+    /* padding: 20px;
+    flex-wrap: wrap;
+    max-width: 1100px; */
+   
+}
+.selected{
+    display: block;
+    border-bottom:1px;
+    color: white;
+    
+}
+.selected a{
+    text-decoration: none;
+    color: white;
+    background: #2110bb;
+    padding: 5px;
+    border-radius: 2px;
+}
+.normal{
+    display: block;
+    border-bottom: 1px;
+    color: white;
+}
+.normal a{
+    text-decoration: none;
+    color: white;
+    background: #2110bb;
+    padding: 5px;
+    border-radius: 2px;
+}
+/* hover - mouse em cima do elemento */
+.selected a:hover {
+    box-shadow: whitesmoke 2px 1px 2px;
+    background: #333;
+}
+.normal a:hover {
+    box-shadow: whitesmoke 2px 1px 2px;
+    background: #333;
+}
+
+/* active - elemento esta sendo clicado */
+.selected a:active {
+    box-shadow: inset wheat 2px 1px 2px;
+    background: red;
+}
+.normal a:active {
+    box-shadow: inset wheat 2px 1px 2px;
+    background: red;
+}
+
+
+h1 {
+    text-align: center;
+    color:white;
+    font-family: 'Chilanka', cursive;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Chilanka', cursive;
+}
+h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Chilanka', cursive;
+}
+p {
+    text-align: justify;
+    text-indent:30px;
+    color:white;
+    margin-left:20px;
+    margin-right:20px;
+    font-family:'Chilanka', cursive;
+}
+
+#slide0 {
+    display: flex;
+}
+#slide0 #carouselExampleIndicators {
+    width: 53%;
+    border: solid;
+    margin: auto;
+    background: white;
+}
+#slide0 #carouselExampleIndicators img {
+    max-height: 400px;
+    margin: auto;
+}
+#slide1 {
+    display: flex;
+}
+#slide1 #carouselExampleIndicators {
+    width: 65%;
+    border: solid;
+    margin: auto;
+    background: white;
+}
+#slide1 #carouselExampleIndicators img {
+    max-height: 400px;
+    margin: auto;
+}
+#slide2 {
+    display: flex;
+}
+#slide2 #carouselExampleIndicators {
+    width: 42%;
+    border: solid;
+    margin: auto;
+    background: white;
+}
+#slide2 #carouselExampleIndicators img {
+    max-height: 400px;
+    margin: auto;
+}
+#slide3 {
+    display: flex;
+    
+}
+#slide3 #carouselExampleIndicators {
+    width: 65%;
+    border: solid;
+    margin: auto;
+    background: white;
+}
+#slide3 #carouselExampleIndicators img {
+    max-height: 400px;
+    margin: auto;
+}
+#slide4 {
+    display: flex;
+
+}
+#slide4 #carouselExampleIndicators {
+    width: 42%;
+    border: solid;
+    margin: auto;
+    background: white;
+}
+#slide4 #carouselExampleIndicators img {
+    max-height: 400px;
+    margin: auto;
+
+}
+#aba0 {
+    background-color: black;
+    /* background-color: #1802e0; */
+    text-align: center;
+}
+#aba1 {
+    /* background-color: #856A21; */
+    background-color: #e00702;
+    text-align: center;
+}
+#aba2 {
+    background-color: #1a748e;
+    text-align:center;
+}
+#img00 {
+    float: center;
+    border-radius: 30px;
+    width: 65%;
+    height: 65%;
+}
+#img0 {
+    float: center;
+    border-radius: 30px;
+    width: 65%;
+    height: 65%;
+}
+#img1 {
+    float: center;
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+}
+#img2 {
+    float: center;
+    border-radius: 30px;
+    width: 80%;
+    height: 80%;
+}
+#video{
+    text-align: center;
+    border-radius: 15px;
+    
+}
+#video1{
+    border-radius: 15px;
+    text-align: center;
+    
+   
+
+}
+#linha{
+    text-align:"center";
+    /* noshade:"noshade"; */
+    size: 50; 
+    width: 80%;
+}
+#contact0 {
+    font-family: 'Chilanka', cursive;
+    color: #fec106;
+}
+#contact1 {
+    font-family: 'Chilanka', cursive;
+    color: #fec106;
+}
+#contact2 {
+    font-family: 'Chilanka', cursive;
+    color:black;
+}
+@media screen and (max-width: 1060px) {
+    body {
+		padding-top:80px;
+	}
