@@ -228,12 +228,11 @@ p {
    
 
 }
-#linha{
+/* #linha{
     text-align:"center";
-    /* noshade:"noshade"; */
-    size: 50; 
+    size: 70; 
     width: 80%;
-}
+} */
 #contact0 {
     font-family: 'Chilanka', cursive;
     color: #fec106;
