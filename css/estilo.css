@@ -13,7 +13,27 @@
     height: 7%;
     
 }
-nav ul {
+header {
+	width: 100%;
+}
+ 
+header nav {
+	background: none;
+	z-index:1000;
+	max-width: 1000px;
+	width:95%;
+    margin:15px auto;
+    
+}
+header nav ul {
+	list-style:none;
+}
+ 
+header nav ul li {
+	display:inline-block;
+	position: relative;
+}
+/* nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -24,14 +44,14 @@ nav ul a {
     display: inline-block;
     width: 100%;
     text-align: center;
-}
-.navigation {
+} */
+.menu {
     list-style: none;
     display: inline-flex;
     flex-wrap: wrap;
     
 }
-.navigation li{
+.menu li{
     display: inline-flex;
     margin: 30px;
     right: 1em;
@@ -40,19 +60,19 @@ nav ul a {
     max-width: 1100px; */
    
 }
-.selected{
+/* .selected{
     display: block;
     border-bottom:1px;
     color: white;
     
-}
-.selected a{
+} */
+/* .selected a{
     text-decoration: none;
     color: white;
     background: #2110bb;
-    padding: 5px;
-    border-radius: 2px;
-}
+    padding: 5px; */
+    /* border-radius: 2px; */
+
 .normal{
     display: block;
     border-bottom: 1px;
@@ -117,7 +137,7 @@ p {
     width: 53%;
     border: solid;
     margin: auto;
-    background: white;
+    background: transparent;
 }
 #slide0 #carouselExampleIndicators img {
     max-height: 400px;
@@ -130,7 +150,7 @@ p {
     width: 65%;
     border: solid;
     margin: auto;
-    background: white;
+    background: transparent;
 }
 #slide1 #carouselExampleIndicators img {
     max-height: 400px;
@@ -139,13 +159,13 @@ p {
 #slide2 {
     display: flex;
 }
-#slide2 #carouselExampleIndicators {
+#slide2 #carouselExampleIndicators1 {
     width: 42%;
     border: solid;
     margin: auto;
-    background: white;
+    background: transparent;
 }
-#slide2 #carouselExampleIndicators img {
+#slide2 #carouselExampleIndicators1 img {
     max-height: 400px;
     margin: auto;
 }
@@ -157,7 +177,7 @@ p {
     width: 65%;
     border: solid;
     margin: auto;
-    background: white;
+    background: transparent;
 }
 #slide3 #carouselExampleIndicators img {
     max-height: 400px;
@@ -165,19 +185,52 @@ p {
 }
 #slide4 {
     display: flex;
-
-}
-#slide4 #carouselExampleIndicators {
+   }
+#slide4 #carouselExampleIndicators1 {
     width: 42%;
     border: solid;
     margin: auto;
-    background: white;
-}
-#slide4 #carouselExampleIndicators img {
+    background: transparent;
+   }
+#slide4 #carouselExampleIndicators1 img {
     max-height: 400px;
     margin: auto;
+    /* border-radius: 30px; */
 
 }
+#slide5 {
+    display: flex;
+   }
+#slide5 #carouselExampleIndicators2 {
+    width: 56.5%;
+    border: solid;
+    margin: auto;
+    background: transparent;
+   }
+#slide5 #carouselExampleIndicators2 img {
+    max-height: 400px;
+    margin: auto;
+    /* border-radius: 30px; */
+
+}
+#slide6 {
+    display: flex;
+   }
+#slide6 #carouselExampleIndicators1 {
+    width: 56.5%;
+    border: solid;
+    margin: auto;
+    background: transparent;
+   }
+#slide6 #carouselExampleIndicators1 img {
+    max-height: 400px;
+    margin: auto;
+    /* border-radius: 30px; */
+
+}
+/* .d-block {
+    border-radius: 30px;
+} */
 #aba0 {
     background-color: black;
     /* background-color: #1802e0; */
@@ -192,6 +245,10 @@ p {
     background-color: #1a748e;
     text-align:center;
 }
+#aba3 {
+    background-color: #333;
+    text-align: center;
+}
 #img00 {
     float: center;
     border-radius: 30px;
@@ -203,6 +260,12 @@ p {
     border-radius: 30px;
     width: 65%;
     height: 65%;
+}
+#img01 {
+    float: center;
+    border-radius: 30px;
+    width: 80%;
+    height: 80%;
 }
 #img1 {
     float: center;
@@ -216,23 +279,27 @@ p {
     width: 80%;
     height: 80%;
 }
+
+#video0{
+    text-align: center;
+    border-radius: 15px;
+    width: 65%;
+}  
 #video{
     text-align: center;
     border-radius: 15px;
+    width: 65%;
     
 }
 #video1{
     border-radius: 15px;
     text-align: center;
-    
-   
-
+    width: 65%;
 }
-/* #linha{
-    text-align:"center";
-    size: 70; 
-    width: 80%;
-} */
+img {
+    max-width: 120%;
+}
+
 #contact0 {
     font-family: 'Chilanka', cursive;
     color: #fec106;
@@ -245,7 +312,47 @@ p {
     font-family: 'Chilanka', cursive;
     color:black;
 }
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 930px) {
     body {
 		padding-top:80px;
+    }
+    .menu_bar {
+        display: none;
+    }
+    .menu_bar {
+        display: block;
+        width: 100%;
+        /* position: fixed; */
+        top:0;
+    }
+    .menu_bar .bt-menu {
+        /* display: block; */
+        padding: 20px;
+        color: yellow;
+        overflow: hidden;
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .menu_bar span {
+        float: right;
+        font-size: 20px;
+    }
+    
+    nav {
+		width: 80%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
 	}
+ 
+	nav ul li {
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+ 
+	nav ul li a {
+		display: block;
+	}
+}
