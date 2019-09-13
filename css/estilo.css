@@ -137,39 +137,41 @@ p {
     display: flex;
 }
 #slide0 #carouselExampleIndicators {
-    width: 53%;
+    width: 69%;
     border: solid;
     margin: auto;
     background: transparent;
 }
 #slide0 #carouselExampleIndicators img {
-    max-height: 400px;
+    max-height: 500px;
     margin: auto;
 }
 #slide1 {
     display: flex;
 }
 #slide1 #carouselExampleIndicators {
-    width: 65%;
+    width: 75%;
+    /* width: auto; */
     border: solid;
     margin: auto;
     background: transparent;
 }
 #slide1 #carouselExampleIndicators img {
-    max-height: 400px;
+    max-height: 500px;
     margin: auto;
 }
 #slide2 {
     display: flex;
 }
 #slide2 #carouselExampleIndicators1 {
-    width: 42%;
+    /* width: 42%; */
+    width: 70%;
     border: solid;
     margin: auto;
     background: transparent;
 }
 #slide2 #carouselExampleIndicators1 img {
-    max-height: 400px;
+    max-height: 500px;
     margin: auto;
 }
 #slide3 {
@@ -177,7 +179,8 @@ p {
     
 }
 #slide3 #carouselExampleIndicators {
-    width: 65%;
+    /* width: 65%; */
+    width: 70%;
     border: solid;
     margin: auto;
     background: transparent;
@@ -289,9 +292,9 @@ p {
     width: 65%;
 }  
 #video{
-    text-align: center;
+    /* text-align: center; */
     border-radius: 15px;
-    width: 65%;
+    width: 70%;
     
 }
 #video1{
