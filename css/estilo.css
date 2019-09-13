@@ -129,6 +129,9 @@ p {
     margin-right:20px;
     font-family:'Chilanka', cursive;
 }
+#novo {
+    text-align: center;
+}
 
 #slide0 {
     display: flex;
@@ -296,6 +299,11 @@ p {
     text-align: center;
     width: 65%;
 }
+#video3 {
+    border-radius: 15px;
+    /* text-align: center; */
+    /* width: 65%; */
+}
 img {
     max-width: 120%;
 }
@@ -310,8 +318,13 @@ img {
 }
 #contact2 {
     font-family: 'Chilanka', cursive;
-    color:black;
+    color:rgb(214, 200, 200);
 }
+#contact3 {
+    font-family: 'Chilanka', cursive;
+    color:#f79be6;
+}
+
 @media screen and (max-width: 930px) {
     body {
 		padding-top:80px;
