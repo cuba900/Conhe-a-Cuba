@@ -1,0 +1,479 @@
+
+/* --- formulario de contato */
+#formulario {
+    background-image: url(wall-cuba.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    /* font-family: monospace; */
+    font-family: 'Chilanka', cursive;
+    text-align: center;
+}
+#formulario nav {
+    background: none;
+	z-index:1000;
+	max-width: 1000px;
+	width:95%;
+    margin:15px auto;
+}
+#formulario nav ul{
+	list-style:none;  
+}
+#formulario nav ul li {
+	display:inline-block;
+	position: relative;
+}
+ 
+
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.199);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+#formu {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    font-family: 'Chilanka', cursive;
+}
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton {
+    background: rgb(21, 13, 134);
+    color: #fff;
+    padding: 20px;
+
+}
+#boton:hover {
+    cursor: pointer;
+    box-shadow: whitesmoke 2px 1px 2px;
+    background: #333;
+}
+#boton:active {
+    box-shadow: inset wheat 2px 1px 2px;
+    background: red;
+}
+@media screen and (max-width:500px) {
+    form {
+        width: 100%;
+    }
+}
+
+header {
+	width: 100%;
+}
+
+/* --- reproductor flutuante */
+#repro {
+    background: transparent;
+    font-family: "times new roman",arial;
+    color:rgb(255, 115, 0);
+    text-decoration: none;
+    padding: 1px;
+    border-radius: 9px;
+    position: fixed;
+    left: 1em;
+    top: 1em;
+    width: 20%;
+    height: 7%;   
+}
+ 
+header nav {
+	background: none;
+	z-index:1000;
+	max-width: 1000px;
+	width:95%;
+    margin:15px auto;
+    
+}
+header nav ul {
+	list-style:none;
+}
+ 
+header nav ul li {
+	display:inline-block;
+	position: relative;
+}
+/* nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+} */
+.menu {
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+}
+.menu li{
+    display: inline-flex;
+    margin: 30px;
+    right: 1em;
+    /* padding: 20px;
+    flex-wrap: wrap;
+    max-width: 1100px; */
+   
+}
+/* .selected{
+    display: block;
+    border-bottom:1px;
+    color: white;
+    
+} */
+/* .selected a{
+    text-decoration: none;
+    color: white;
+    background: #2110bb;
+    padding: 5px; */
+    /* border-radius: 2px; */
+
+.normal{
+    display: block;
+    border-bottom: 1px;
+    color: white;
+}
+.normal a{
+    text-decoration: none;
+    color: white;
+    background: #2110bb;
+    padding: 5px;
+    border-radius: 2px;
+}
+/* hover - mouse em cima do elemento */
+.selected a:hover {
+    box-shadow: whitesmoke 2px 1px 2px;
+    background: #333;
+}
+.normal a:hover {
+    box-shadow: whitesmoke 2px 1px 2px;
+    background: #333;
+}
+
+/* active - elemento esta sendo clicado */
+.selected a:active {
+    box-shadow: inset wheat 2px 1px 2px;
+    background: red;
+}
+.normal a:active {
+    box-shadow: inset wheat 2px 1px 2px;
+    background: red;
+}
+
+
+h1 {
+    text-align: center;
+    color:white;
+    font-family: 'Chilanka', cursive;
+}
+#obr {
+    font-size: 40px;
+    background: rgba(0, 0, 0, 0.199);
+    margin-top: 20px;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Chilanka', cursive;
+}
+h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Chilanka', cursive;
+}
+p {
+    text-align: justify;
+    text-indent:30px;
+    color:white;
+    margin-left:20px;
+    margin-right:20px;
+    font-family:'Chilanka', cursive;
+}
+#p1 {
+    text-align: center;
+    color: transparent;
+}
+#novo {
+    text-align: center;
+}
+
+#slide0 {
+    display: flex;
+}
+#slide0 #carouselExampleIndicators {
+    width: 66%;
+    border: solid;
+    margin: auto;
+    background: transparent;
+}
+#slide0 #carouselExampleIndicators img {
+    max-height: 500px;
+    margin: auto;
+}
+#slide1 {
+    display: flex;
+}
+#slide1 #carouselExampleIndicators {
+    width: 75%;
+    /* width: auto; */
+    border: solid;
+    margin: auto;
+    background: transparent;
+}
+#slide1 #carouselExampleIndicators img {
+    max-height: 500px;
+    margin: auto;
+}
+#slide2 {
+    display: flex;
+}
+#slide2 #carouselExampleIndicators1 {
+    /* width: 42%; */
+    width: 70%;
+    border: solid;
+    margin: auto;
+    background: transparent;
+}
+#slide2 #carouselExampleIndicators1 img {
+    max-height: 500px;
+    margin: auto;
+}
+#slide3 {
+    display: flex;
+    
+}
+#slide3 #carouselExampleIndicators {
+    /* width: 65%; */
+    width: 75%;
+    border: solid;
+    margin: auto;
+    background: transparent;
+}
+#slide3 #carouselExampleIndicators img {
+    max-height: 400px;
+    margin: auto;
+}
+#slide4 {
+    display: flex;
+   }
+#slide4 #carouselExampleIndicators1 {
+    width: 70%;
+    border: solid;
+    margin: auto;
+    background: transparent;
+   }
+#slide4 #carouselExampleIndicators1 img {
+    max-height: 500px;
+    margin: auto;
+    /* border-radius: 30px; */
+
+}
+#slide5 {
+    display: flex;
+   }
+#slide5 #carouselExampleIndicators2 {
+    width: 70%;
+    border: solid;
+    margin: auto;
+    background: transparent;
+   }
+#slide5 #carouselExampleIndicators2 img {
+    max-height: 500px;
+    margin: auto;
+    /* border-radius: 30px; */
+
+}
+#slide6 {
+    display: flex;
+   }
+#slide6 #carouselExampleIndicators1 {
+    width: 60%;
+    border: solid;
+    margin: auto;
+    background: transparent;
+   }
+#slide6 #carouselExampleIndicators1 img {
+    max-height: 500px;
+    margin: auto;
+    /* border-radius: 30px; */
+
+}
+/* .d-block {
+    border-radius: 30px;
+} */
+#aba0 {
+    background-color: black;
+    /* background-color: #1802e0; */
+    text-align: center;
+}
+#aba1 {
+    /* background-color: #856A21; */
+    background-color: #e00702;
+    text-align: center;
+}
+#aba2 {
+    background-color: #1a748e;
+    text-align:center;
+}
+#aba3 {
+    background-color: #333;
+    text-align: center;
+}
+#img00 {
+    float: center;
+    border-radius: 30px;
+    width: 65%;
+    height: 65%;
+}
+#img0 {
+    float: center;
+    border-radius: 30px;
+    width: 65%;
+    height: 65%;
+}
+#img01 {
+    float: center;
+    border-radius: 30px;
+    width: 80%;
+    height: 80%;
+}
+#img1 {
+    float: center;
+    border-radius: 10px;
+    width: 70%;
+    height: 70%;
+}
+#img2 {
+    float: center;
+    border-radius: 30px;
+    width: 80%;
+    height: 80%;
+}
+#img3 {
+    float: center;
+    border-radius: 30px;
+    width: 70%;
+    height: 70%;
+}
+
+#video0{
+    text-align: center;
+    border-radius: 15px;
+    width: 65%;
+}  
+#video{
+    /* text-align: center; */
+    border-radius: 15px;
+    width: 70%;
+    
+}
+#video1{
+    border-radius: 15px;
+    text-align: center;
+    width: 65%;
+}
+#video3 {
+    border-radius: 15px;
+    /* text-align: center; */
+    /* width: 65%; */
+}
+img {
+    max-width: 120%;
+}
+
+#contact0 {
+    font-family: 'Chilanka', cursive;
+    color: #fec106;
+}
+#contact1 {
+    font-family: 'Chilanka', cursive;
+    color: #fec106;
+}
+#contact2 {
+    font-family: 'Chilanka', cursive;
+    color:rgb(214, 200, 200);
+}
+#contact3 {
+    font-family: 'Chilanka', cursive;
+    color:#f79be6;
+}
+#contact4 {
+    font-family: 'Chilanka', cursive;
+    color: thistle (224, 8, 8);
+
+}
+@media screen and (max-width: 930px) {
+    #aba0 {
+		padding-top:80px;
+    }
+ 
+    #aba1 {
+		padding-top:80px;
+    }
+    #aba2 {
+		padding-top:80px;
+    }
+    #aba3 {
+		padding-top:80px;
+    }
+    
+    .menu_bar {
+        display: block;
+        width: 100%;
+        top:0;
+    }
+    .menu_bar .bt-menu {
+        padding: 20px;
+        color: white;
+        overflow: hidden;
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .menu_bar span {
+        float: right;
+        font-size: 20px;
+    }
+    
+    nav {
+		width: 80%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+	}
+ 
+	nav ul li {
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+ 
+	nav ul li a {
+		display: block;
+	}
+}
