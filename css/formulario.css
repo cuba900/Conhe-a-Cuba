@@ -1,0 +1,226 @@
+/* --- formulario de contato */
+#repro4 {
+    background:#ff000d;
+    font-family: "times new roman",arial;
+    color: white;
+    text-decoration: none;
+    padding: 1px;
+    border-radius: 9px;
+    position: fixed;
+    right: 1em;
+    top: 1em;
+    width: 20%;
+    height: 6%;   
+}
+
+#formulario {
+    background-image: url(wall-cuba.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    /* font-family: monospace; */
+    font-family: 'Chilanka', cursive;
+    text-align: center;
+}
+#formulario nav {
+    background: none;
+	z-index:1000;
+	max-width: 1000px;
+	width:95%;
+    margin:15px auto;
+}
+#formulario nav ul{
+	list-style:none;  
+}
+
+#formulario nav ul li {
+	display:inline-block;
+	position: relative;
+}
+ 
+form {
+    max-width: 50%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.199);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+#formu {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    font-family: 'Chilanka', cursive;
+}
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton {
+    background: rgb(21, 13, 134);
+    color: #fff;
+    padding: 20px;
+
+}
+#boton:hover {
+    cursor: pointer;
+    box-shadow: whitesmoke 2px 1px 2px;
+    background: #333;
+}
+#boton:active {
+    box-shadow: inset wheat 2px 1px 2px;
+    background: red;
+}
+#obr {
+    font-size: 40px;
+    background: rgba(0, 0, 0, 0.199);
+    margin-top: 20px;
+    color: whitesmoke;
+    font-family: 'Chilanka', cursive;
+}
+#bal {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Chilanka', cursive;
+    font-size: 40px;
+}
+.menu {
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;  
+}
+
+.menu li{
+    display: inline-flex;
+    margin: 30px;
+    right: 1em; 
+}
+.menu_bar {
+    display: none;
+}
+
+.normal{
+    display: block;
+    border-bottom: 1px;
+    color: white;
+}
+
+.menu .normal a {
+    text-decoration: none;
+    color: white;
+    background: #ff0000;
+    padding: 5px;
+    border-radius: 2px;
+    font-family:'Chilanka', cursive;
+}
+#topo {
+    float: center;
+}
+#topo li a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: #ff0000;
+    padding: 5px;
+    border-radius: 2px;
+    font-family:'Chilanka', cursive;   
+}
+
+#topo li{
+    list-style: none;
+    /* text-align: center; */
+
+}
+#top nav .menu .normal a{
+    text-align: center;
+
+}
+
+/* hover - mouse em cima do elemento */
+#top a:hover {
+    box-shadow: whitesmoke 2px 1px 2px;
+    background: #333;
+}
+
+#topo a:hover {
+    box-shadow: whitesmoke 2px 1px 2px;
+    background: #333;
+}
+
+/* active - elemento esta sendo clicado */
+#top a:active {
+    box-shadow: inset wheat 2px 1px 2px;
+    background:blue;
+}
+
+#topo a:active {
+    box-shadow: inset wheat 2px 1px 2px;
+    background:blue;
+}
+
+@media screen and (max-width:1050px) {
+    form {
+        max-width: 70%;
+    }
+    #top { 
+        text-align: center;
+      }
+      
+      .menu_bar {
+          display: block;
+          width: 100%;
+          /* position: fixed; */
+          top:0;
+      }
+  
+      .menu_bar .bt-menu {
+          padding: 20px;
+          color: whitesmoke;
+          overflow: hidden;
+          font-size: 40px;
+          font-weight: bold;
+          text-decoration: none;
+      }
+      header nav {
+		width: 75%;
+		height: calc(100% - 80px);
+		position: absolute;
+		right:100%;
+        margin: 0; 
+        overflow: scroll; 
+	}
+ 
+	header nav ul li {
+		display: list-item;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+ 
+	header nav ul li a {
+		display: block;
+	}
+  }
+
+
+#contact2 {
+    font-family: 'Chilanka', cursive;
+    color:black;
+}
+
+#p1 {
+    text-align: center;
+    color: transparent;
+}
