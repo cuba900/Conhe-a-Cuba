@@ -368,6 +368,9 @@ p {
     #top { 
       text-align: center;
     }
+    ul .menu {
+        flex-wrap: wrap-reverse;
+    }
     
     .menu_bar {
         display: block;
@@ -386,7 +389,7 @@ p {
     }
     
     header nav {
-		width: 75%;
+		width: 60%;
 		height: calc(100% - 80px);
 		position: absolute;
 		right:100%;
@@ -399,9 +402,9 @@ p {
 		border-bottom:1px solid rgba(255,255,255,.5);
 	}
  
-	header nav ul li a {
+	/* header nav ul li a {
 		display: block;
-	}
+	} */
   }
 
 

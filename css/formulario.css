@@ -173,6 +173,9 @@ textarea {
 }
 
 @media screen and (max-width:1050px) {
+    #formulario {
+        padding-top: 80px;
+    }
     form {
         max-width: 70%;
     }
@@ -180,12 +183,11 @@ textarea {
         text-align: center;
       }
       
-      .menu_bar {
+      /* .menu_bar {
           display: block;
           width: 100%;
-          /* position: fixed; */
           top:0;
-      }
+      } */
   
       .menu_bar .bt-menu {
           padding: 20px;
@@ -196,7 +198,7 @@ textarea {
           text-decoration: none;
       }
       header nav {
-		width: 75%;
+		width: 60%;
 		height: calc(100% - 80px);
 		position: absolute;
 		right:100%;
@@ -205,8 +207,9 @@ textarea {
 	}
  
 	header nav ul li {
-		display: list-item;
-		border-bottom:1px solid rgba(255,255,255,.5);
+		display: block;
+        border-bottom:1px solid rgba(255,255,255,.5);
+        position: relative;
 	}
  
 	header nav ul li a {
